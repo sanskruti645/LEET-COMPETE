@@ -54,13 +54,16 @@ A Chrome extension to track and compare LeetCode statistics with your friends. A
 3. **Remove a Friend**
    - Click the red X button in the top-right corner of any user card
 
-4. **The extension displays:**
+## Screenshots:
+
+**The extension displays:**
    - User avatar and name
    - Global ranking
    - Contest points
    - Total questions solved
    - Breakdown by difficulty level
-![alt text](image-1.png)
+    
+   ![alt text](image-1.png) 
    ![alt text](image.png)
 
 ## Technical Details
