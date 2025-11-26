@@ -63,8 +63,8 @@ A Chrome extension to track and compare LeetCode statistics with your friends. A
    - Total questions solved
    - Breakdown by difficulty level
     
-   ![alt text](image-1.png) 
    ![alt text](image.png)
+   ![alt text](image-1.png)
 
 ## Technical Details
 
