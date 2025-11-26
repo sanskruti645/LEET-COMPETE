@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode Friends Stats</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <img src="logo.png" alt="LeetCode Logo" class="logo">
+        <img src="name.png" alt="LeetCode Friends" class="brand-name">
+    </header>
+
+    <!-- Username Input Section -->
+    <div class="input-section">
+        <label for="username" class="input-label">Add LeetCode Friends</label>
+        <div class="input-wrapper">
+            <input 
+                type="text" 
+                id="username" 
+                class="username-input" 
+                placeholder="Enter username"
+                autocomplete="off"
+            >
+            <button id="searchBtn" class="search-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 5v14M5 12h14"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Loading Indicator -->
+    <div id="loading" class="loading hidden">
+        <div class="spinner"></div>
+        <p>Loading stats...</p>
+    </div>
+
+    <!-- Error Message -->
+    <div id="errorMessage" class="error-message hidden">
+        <p id="errorText"></p>
+    </div>
+
+    <!-- User Stats Container (Scrollable) -->
+    <div id="userStatsContainer" class="user-stats-container"></div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
